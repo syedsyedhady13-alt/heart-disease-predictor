@@ -44,7 +44,7 @@ print("Importing models completed.")
 
 # %%
 print("Importing data...")
-data = pd.read_csv("heart disease predictor\heart.csv")
+data = pd.read_csv("heart.csv")
 print("Data imported successfully.")
 
 # %% [markdown]
@@ -332,7 +332,7 @@ print("Decision Tree Ratio:", DectreR[0],":", DectreR[1])
 
 # %%
 print("to pick the best model, we will use the ratio of True Positives and True Negatives to False Positives and False Negatives. The model with the highest ratio will be considered the best model.")
-print("Since the ratio of Decision Tree and Random Forest is the highest, we will consider both of them as the best models for this dataset.")
+print("Since the ratio of Decision Tree and Random Forest tied,but since random forest classifier took more time than decision trees so we will crown decision trees as the best ml algorithm for this dataset.")
 
 # %%
 age = int(input("Enter your age: "))
